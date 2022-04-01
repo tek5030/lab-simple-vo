@@ -1,6 +1,6 @@
 cmake_minimum_required( VERSION 3.5.1 )
 
-project(lab_8_vo)
+project(lab-simple-vo)
 
 # Compiler flags
 if (MSVC)
