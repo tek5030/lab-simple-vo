@@ -15,6 +15,6 @@ The main steps in today's lab are:
 - Continue from the top
 
 ## Introduction to the project source files
-To get an overview, please start by taking a look at [lab_8.cpp](https://github.com/tek5030/lab_08/blob/master/lab_8.cpp), and try to understand the steps.
+To get an overview, please start by taking a look at [lab_vo.cpp](https://github.com/tek5030/lab-simple-vo/blob/master/lab_vo.cpp), and try to understand the steps.
 
 Please continue to [the next step](2-calibrate-the-camera.md).
