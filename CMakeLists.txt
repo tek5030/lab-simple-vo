@@ -24,8 +24,8 @@ endif()
 
 # Add an executable target to the project with the specified source files.
 add_executable(${exe_name}
-  lab_8.h
-  lab_8.cpp
+  lab_vo.h
+  lab_vo.cpp
   pose_measurement.h
   pose_measurement.cpp
   calibrated_camera.h
