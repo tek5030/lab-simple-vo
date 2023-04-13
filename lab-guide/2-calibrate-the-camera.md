@@ -4,13 +4,26 @@ To estimate the pose of the camera using correspondences, we will first need to 
 We have made a camera interface `CalibratedCamera`, which supports both Realsense cameras through the implementation `CalibratedRealSenseCamera`, and OpenCV cameras through `CalibratedOpencvCamera`.
 These classes also contain the camera calibration.
 
+As in [lab-stereo], you will need the [tek5030 camera-library] for the lab. Head over to the repository and follow the installation instructions.   
+Note: The camera-library is preinstalled on the lab computers and in the [`tek5030/devcontainer`] Docker image.
+
+[lab-stereo]: https://github.com/tek5030/lab-stereo
+[tek5030 camera-library]: https://github.com/tek5030/camera-library
+[`tek5030/devcontainer`]: https://hub.docker.com/r/tek5030/devcontainer
+
 You have the following choice of cameras:
-- ~~Use the precalibrated RealSense camera available at the lab with `CalibratedRealSenseCamera`.
-  This is the recommended choice.~~
-- ~~Use a web camera available at the lab with `CalibratedOpencvCamera`.
+
+- Use `CalibratedRealSenseCamera` with the precalibrated RealSense camera available at the lab.
+
+  This is the recommended choice.
+
+- Use `CalibratedOpencvCamera` with a web camera available at the lab.
+
   In this case, you can use the calibration results in [cameraParameters.xml].
-  We have already filled in these data in the camera interface.~~
-- Use your own camera with `CalibratedOpencvCamera`.
+  We have already filled in these data in the camera interface.
+
+- Use `CalibratedOpencvCamera` with your own camera.
+
   In this case, you will have to calibrate the camera, and setup the parameters in `setupCalibration()` in [calibrated_opencv_camera.cpp:3]
 
 ## 1. Choose the camera and, optionally, specify the camera calibration
