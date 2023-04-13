@@ -19,7 +19,7 @@ You have the following choice of cameras:
 
 - Use `CalibratedOpencvCamera` with a web camera available at the lab.
 
-  In this case, you can use the calibration results in [cameraParameters.xml].
+  In this case, you can use the calibration results in [cameraParameters.xml] from lab "Pose estimation".
   We have already filled in these data in the camera interface.
 
 - Use `CalibratedOpencvCamera` with your own camera.

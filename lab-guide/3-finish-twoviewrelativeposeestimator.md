@@ -1,8 +1,10 @@
 # Step 3: Finish `TwoViewRelativePoseEstimator`
+
 First, take a look at the definition and documentation in [two_view_relative_pose_estimator.h]. 
 Then go to [two_view_relative_pose_estimator.cpp]. 
 Read through the code to get an overview. 
 
+## 1. Understand
 Study `TwoViewRelativePoseEstimator::estimate()` in [two_view_relative_pose_estimator.cpp:11], and try to understand what is happening here.
 
 [two_view_relative_pose_estimator.h]:      https://github.com/tek5030/lab-simple-vo/blob/master/two_view_relative_pose_estimator.h
